@@ -1,0 +1,119 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header and Navigation Bar */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    margin-right: 10px; /* Space between the image and text */
+}
+
+.logo {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.food-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food-item {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.food-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.food-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.food-item h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.food-item p {
+    color: #777;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.food-item span {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.food-item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+#order-details {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#order-details img {
+    max-width: 80%; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+    height: auto;
+    margin: 10px 0;
+}
+
+
+
+
